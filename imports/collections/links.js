@@ -9,8 +9,8 @@ Meteor.methods({
     check(url, Match.Where(url => validUrl.isUri(url)));
 
     //if valid, save the url, generate token and add both
-    const token = Math.random().toString(36).slice(-6);
-
+    const token = Math.random().toString(36).slice(-7);
+    Links.insert({ url, token, clicks: 0 })
   }
 })
 

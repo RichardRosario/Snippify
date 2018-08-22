@@ -11,9 +11,11 @@
   },
   "dependencies": {
     "@babel/runtime": "7.0.0-beta.55",
+    "connect-route": "^0.1.5",
     "meteor-node-stubs": "^0.4.1",
     "nstall": "^0.2.0",
     "react": "^16.4.2",
+    "react-addons-pure-render-mixin": "^15.6.2",
     "react-dom": "^16.4.2",
     "valid-url": "^1.0.9"
   }
