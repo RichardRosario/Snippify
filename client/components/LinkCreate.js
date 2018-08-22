@@ -17,7 +17,6 @@ class LinkCreate extends Component {
         this.setState({ error: '' }); 
         this.refs.link.value = '';
       }
-
     });
   }
 
