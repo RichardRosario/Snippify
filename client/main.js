@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import { Meteor } from 'meteor/meteor';
 import Header from './components/Header';
 import LinkCreate from './components/LinkCreate';
+import { Links } from '../imports/collections/links';
 
 const App = () => {
   return(
